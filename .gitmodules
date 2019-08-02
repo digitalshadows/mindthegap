@@ -1,0 +1,15 @@
+[submodule "tools/pupy"]
+	path = tools/pupy
+	url = https://github.com/n1nj4sec/pupy.git
+[submodule "tools/Empire"]
+	path = tools/Empire
+	url = https://github.com/EmpireProject/Empire.git
+[submodule "tools/EggShell"]
+	path = tools/EggShell
+	url = https://github.com/neoneggplant/EggShell.git
+[submodule "tools/EvilOSX"]
+	path = tools/EvilOSX
+	url = https://github.com/Marten4n6/EvilOSX.git
+[submodule "tools/FiveOnceInYourLife"]
+	path = tools/FiveOnceInYourLife
+	url = https://github.com/fuzzynop/FiveOnceInYourLife.git
