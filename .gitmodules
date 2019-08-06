@@ -13,3 +13,6 @@
 [submodule "tools/FiveOnceInYourLife"]
 	path = tools/FiveOnceInYourLife
 	url = https://github.com/fuzzynop/FiveOnceInYourLife.git
+[submodule "tools/SSHoRTy"]
+	path = tools/SSHoRTy
+	url = https://github.com/dsnezhkov/SSHoRTy.git
