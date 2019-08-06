@@ -19,7 +19,7 @@ The key takeaway is that despite the myriad of operating system security feature
 
 For this workshop, we recommended using [Kali Linux](https://www.offensive-security.com/kali-linux-vm-vmware-virtualbox-image-download/) for running the tools.
 
-1. Git clone this repository: `git clone git@github.com:digitalshadows/mindthegap.git`
+1. Git clone this repository: `git clone https://github.com/digitalshadows/mindthegap.git`
 2. Enter the project directory: `cd mindthegap/tools`
 3. Initialize and update the submodules: `git submodule update --init --recursive`
 
